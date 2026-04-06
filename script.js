@@ -6,5 +6,4 @@ document.getElementById("btn").addEventListener("click", () => {
       dogContainer.innerHTML = `<img src="${data.message}" alt="dog image">`;
     })
     .catch(error => console.error("Error al cargar la imagen:", error));
-    
 });

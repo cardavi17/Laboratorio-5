@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Títulos */
+h1 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Secciones */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Contenedor JSON */
+#datos-local p {
+    background-color: #e3f2fd;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+/* Contenedor API (gatos) */
+#datos-api {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#datos-api img {
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#datos-api img:hover {
+    transform: scale(1.05);
+}
+
+/* Texto de diferencias */
+p {
+    background-color: #fff3cd;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}

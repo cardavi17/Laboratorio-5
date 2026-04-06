@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -11,6 +12,7 @@
         <h1>Json local</h1>
         <h2>estos son los datos obtenidos</h2>
 
+        <div id="datos-local"></div>
 
     </section>
 
@@ -19,7 +21,15 @@
         <h1>API publica</h1>
         <h2>estos son los datos</h2>
 
-        
+        <div id="datos-api"></div>
+
     </section>
+
+    <p>primera diferencia es de donde vienen la informacion api de web y de los json de el propio proyecto en uno de los archivos</p>
+    <p>la segunda es la actualizacion de los datos la api se actualiza en tiempo real y la json solo si se cambia los archivos del proyectos</p>
+    <p>la tercera es la dependecia y los errores, la api puede fallar y ser muy inconcistente, mientras que la json local va a servir mientras el archivo exista</p>
+
+    <script src="API.js"></script>
+    <script src="json.js"></script>
 </body>
 </html>

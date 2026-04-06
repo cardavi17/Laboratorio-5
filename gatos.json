@@ -3,25 +3,25 @@
         "nombre": "memencio", 
         "años": 2,
         "callejero": false
-    }
+    },
 
     {
         "nombre": "bigotes", 
         "años": 4,
         "callejero": true
-    }
+    },
 
     {
         "nombre": "manchitas", 
         "años": 1,
         "callejero": false
-    }
+    },
 
     {
         "nombre": "rasputia", 
         "años": 4,
         "callejero": false
-    }
+    },
 
     {
         "nombre": "blanquita", 

@@ -1,14 +1,14 @@
-fetch("videojuegos.json")
+fetch("videojuegos.json")//Así es como JS lee el Json
     .then(function(response){
         return response.json();
     })
     .then(function(data)
     {
-        var contenedor = document.getElementById("contenedor");
+        var contenedor = document.getElementById("contenedor");//variable donde guarda los datos
 
-        for (var i=0; i<data.length; i++)
+        for (var i=0; i<data.length; i++)//Recorre 
         {
-            var juego = data[i];
+            var juego = data[i];//indice
 
             var div = document.createElement("div");
 
@@ -22,3 +22,8 @@ fetch("videojuegos.json")
 
         }
     })
+    //[]: Significa que es un arreglo
+    //{}: Significa que es un objeto
+    //Qué es una clave? Nombre del dato
+    //Qué es un valor? Contenido del dato
+    //Porque se tiene guaradado en parentesis cuadrados unos objetos.

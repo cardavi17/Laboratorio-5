@@ -4,7 +4,7 @@ var contenedor = document.getElementById("datos-local");
 // Leer el JSON local
 fetch("gatos.json")
 .then(function(respuesta) {
-    return respuesta.json();
+    return respuesta.json();//obtiene la respuesta del json
 })
 .then(function(datos) {
 
@@ -20,7 +20,7 @@ fetch("gatos.json")
             " | Edad: " + gato.años + 
             " | Callejero: " + gato.callejero;
 
-        contenedor.appendChild(texto);
+        contenedor.appendChild(texto);//ordena la informacion antes de mandarla al contenedor
     }
 
 })
